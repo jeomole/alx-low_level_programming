@@ -3,7 +3,8 @@
 /**
   * main - Entry point
   *
-  * Prints the lowercase letters of the alphabet in reverse, followed by newline
+  * Prints the lowercase letters of the alphabet
+  * in reverse, followed by newline
   * Return: 0
   */
 int main(void)
