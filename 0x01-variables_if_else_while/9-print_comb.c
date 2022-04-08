@@ -7,7 +7,7 @@
   * in ascending order and delimited with a comma and space
   * Return: 0
   */
-int main(void);
+int main(void)
 {
 	int sing_digit;
 
