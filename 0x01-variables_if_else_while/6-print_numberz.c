@@ -3,7 +3,9 @@
 /**
   * main - Entry point
   *
-  * Prints all single digits of base 10 with the putchar function followed by a new line
+  * Prints all single digits of base 10 with the putchar
+  * function followed by a new line
+  * Return: 0
   */
 int main(void)
 {
