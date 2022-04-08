@@ -15,7 +15,7 @@ int main(void)
 	while (sing_digit <= '9')
 	{
 		putchar(sing_digit);
-		
+
 		if (sing_digit != '9')
 		{
 			putchar(',');
@@ -23,5 +23,6 @@ int main(void)
 		}
 		sing_digit++;
 	}
+	putchar(10);
 	return (0);
 }
