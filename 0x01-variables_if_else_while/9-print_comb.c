@@ -14,13 +14,15 @@ int main(void)
 	sing_digit = '0';
 	while (sing_digit <= '9')
 	{
+		putchar(sing_digit);
+		sing_digit++;
+
 		if (sing_digit != '9')
 		{
 			putchar(',');
 			putchar(' ');
 		}
-		putchar(sing_digit);
-		sing_digit++;
+		
 	}
 	return (0);
 }
