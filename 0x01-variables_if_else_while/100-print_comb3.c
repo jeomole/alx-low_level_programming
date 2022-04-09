@@ -20,7 +20,7 @@ int main(void)
 			{
 				putchar(ch1);
 				putchar(ch2);
-				
+
 				if (ch1 != '8')
 				{
 					putchar(',');
