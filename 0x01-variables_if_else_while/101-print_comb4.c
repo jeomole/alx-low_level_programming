@@ -20,25 +20,23 @@ int main(void)
 		while (dig2 <= '8')
 		{
 			dig3 = '2';
-				while (dig2 <= '9')
+			while (dig3 <= '9')
+			{
+				if (dig1<dig2 && dig2<dig3 && dig1!=dig2 &&dig1!=dig3 && dig2!=dig3)
 				{
-					if (dig1 < dig2 && dig2 < dig3 && dig1 != dig2 && dig1 != dig3 && dig2 != dig3)
-					{
-						putchar(dig1);
-						putchar(dig2);
-						putchar(dig3);
+					putchar(dig1);
+					putchar(dig2);
+					putchar(dig3);
 
-						if (dig1 == '7' && dig2 == '8' && dig3 == '9')
-						{
-							break;
-						}
-						else
-						{
-							putchar(',');
-							putchar(' ');
-						}
+					if (dig1=='7' && dig2=='8' && dig3=='9')
+					break;
+					else
+					{
+						putchar(',');
+						putchar(' ');
 					}
-					dig3++;
+				}
+				dig3++;
 				}
 			dig2++;
 		}
