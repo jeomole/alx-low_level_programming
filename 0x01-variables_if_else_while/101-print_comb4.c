@@ -22,7 +22,7 @@ int main(void)
 			dig3 = '2';
 			while (dig3 <= '9')
 			{
-				if (dig1 < dig2 && dig2 < dig3 && dig1 != dig2 && dig1 != dig3 && dig2 != dig3)
+				if (dig1 < dig2 && dig2 < dig3 && dig1 != dig2 && dig1 != dig3)
 				{
 					putchar(dig1);
 					putchar(dig2);
