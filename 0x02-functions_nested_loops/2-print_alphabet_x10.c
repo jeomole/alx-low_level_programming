@@ -2,7 +2,7 @@
 
 /**
   * print_alphabet_x10 - Entry point
-  * 
+  *
   * Prints the alphabets in lowercase 10 times
   * Return: Returns 0
   */
