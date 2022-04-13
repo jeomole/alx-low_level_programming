@@ -5,7 +5,7 @@
   * jack_bauer - Prints every minute of the day
   * Return: Void
   */
-void jack_baeur(void)
+void jack_bauer(void)
 {
 	int h1;
 	int h2;
