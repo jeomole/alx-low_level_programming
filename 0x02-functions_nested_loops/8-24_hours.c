@@ -10,7 +10,7 @@ void jack_baeur(void)
 	int h1;
 	int h2;
 	int m1;
-	int m1;
+	int m2;
 	int a = 9;
 
 	h2 = 0;
