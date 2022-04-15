@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 
 /** main - Entry point
   * _putchar - Print a character
@@ -7,7 +7,6 @@
   *
   * Return: 0, for SUCCESS
   */
-int _putchar(char c);
 int main(void)
 {
 	int figure;
@@ -25,6 +24,6 @@ int main(void)
 			printf("%d", figure);
 		figure++;
 	}
-	_putchar(10);
+	putchar('\n');
 	return (0);
 }
