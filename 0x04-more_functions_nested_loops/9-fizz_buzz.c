@@ -9,6 +9,7 @@ int main(void)
 	int figure;
 
 	figure = 1;
+
 	while (figure <= 100)
 	{
 		if ((figure % 15) == 0)
