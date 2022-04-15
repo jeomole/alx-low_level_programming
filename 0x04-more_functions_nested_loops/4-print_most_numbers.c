@@ -2,7 +2,7 @@
 
 /**
   * print_most_numbers - Prints numbers from 0 to 9 excluding 2 and 4
-  *
+  * @c: Numbers, starting from 0
   * Return: Void
   */
 void print_most_numbers(void)
