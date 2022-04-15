@@ -1,10 +1,9 @@
+#include "main.h"
 #include <stdio.h>
 
 /** main - Entry point
- * @figure: Numbers from 1 to 100
- *
- * Return: 0, for SUCCESS
- */
+  * Return: 0
+  */
 int main(void)
 {
 	int figure;
