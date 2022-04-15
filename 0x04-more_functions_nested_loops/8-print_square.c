@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-  * print_square - Print hash figure equal times
-  * vertically and horizontally
-  * @size - number of times to print hash
+  * print_square - draws a square
+  * @size: Number of rows and columns
+  *
   * Return: Void
   */
 void print_square(int size)
