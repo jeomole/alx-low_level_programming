@@ -6,9 +6,7 @@
   */
 int main(void)
 {
-	int figure;
-
-	figure = 1;
+	int figure = 1;
 
 	while (figure <= 100)
 	{
