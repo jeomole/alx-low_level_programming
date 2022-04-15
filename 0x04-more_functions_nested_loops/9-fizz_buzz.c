@@ -2,11 +2,10 @@
 #include <stdio.h>
 
 /** main - Entry point
-  * _putchar - Print a character
-  * @figure: Numbers from 1 to 100
-  *
-  * Return: 0, for SUCCESS
-  */
+ * @figure: Numbers from 1 to 100
+ *
+ * Return: 0, for SUCCESS
+ */
 int main(void)
 {
 	int figure;
@@ -24,6 +23,6 @@ int main(void)
 			printf("%d", figure);
 		figure++;
 	}
-	putchar('\n');
+	putchar(10);
 	return (0);
 }
