@@ -22,6 +22,6 @@ int main(void)
 			printf("%d", figure);
 		figure++;
 	}
-	putchar(10);
+	printf("\n");
 	return (0);
 }
