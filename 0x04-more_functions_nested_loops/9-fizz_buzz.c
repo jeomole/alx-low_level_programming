@@ -19,7 +19,7 @@ int main(void)
 		else if ((figure % 3) == 0)
 			printf("Fizz ");
 		else
-			printf("%d", figure);
+			printf("%d ", figure);
 		figure++;
 	}
 	printf("\n");
