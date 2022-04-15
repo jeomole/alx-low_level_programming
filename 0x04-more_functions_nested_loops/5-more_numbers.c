@@ -1,34 +1,22 @@
 #include "main.h"
 
 /**
-  * more_numbers - Prints 0 to 14 ten times
-  * @freq: Number of times to be printed
-  * @num: Number
-  * Return: Void
-  */
+ * more_numbers - prints numbers between 0 to 14
+ * 10 times.
+ * Return: no return.
+ */
 void more_numbers(void)
 {
-	int freq;
-	int num;
+	int i, ch;
 
-	freq = 0;
-	while (freq <= 9)
+	for (i = 0; i < 10; i++)
 	{
-		num = 0
-		while (num <= 14)
+		for (ch = 0; ch < 15; ch++)
 		{
-			if (num >= 10)
-			{
-				_putchar((num / 10) + '0');
-				_putchar((num % 10) + '0')
-			}
-			else
-			{
-			_putchar(num);
-			}
-			num++;
+			if (ch >= 10)
+				_putchar((ch / 10) + 48);
+			_putchar((ch % 10) + 48);
 		}
-		_putchar(10)
-		freq++;
+		_putchar('\n');
 	}
 }
