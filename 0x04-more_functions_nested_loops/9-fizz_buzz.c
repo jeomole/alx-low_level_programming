@@ -10,14 +10,14 @@ int main(void)
 
 	while (figure <= 100)
 	{
-		if ((figure % 15) == 0)
+		if (figure == 100)
+			printf("Buzz");
+		else if ((figure % 15) == 0)
 			printf("FizzBuzz ");
 		else if ((figure % 5) == 0)
 			printf("Buzz ");
 		else if ((figure % 3) == 0)
 			printf("Fizz ");
-		else if (figure == 100)
-			printf("Fizz");
 		else
 			printf("%d ", figure);
 		figure++;
