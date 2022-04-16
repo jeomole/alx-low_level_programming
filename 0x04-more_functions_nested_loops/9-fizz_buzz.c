@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
@@ -21,6 +20,6 @@ int main(void)
 			printf("%d ", figure);
 		figure++;
 	}
-	printf("Buzz\n");
+	printf("\n");
 	return (0);
 }
