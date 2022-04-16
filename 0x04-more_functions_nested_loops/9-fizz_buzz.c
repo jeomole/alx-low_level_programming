@@ -16,10 +16,12 @@ int main(void)
 			printf("Buzz ");
 		else if ((figure % 3) == 0)
 			printf("Fizz ");
+		else if (figure == 100)
+			printf("Fizz");
 		else
 			printf("%d ", figure);
 		figure++;
 	}
-	printf("Buzz\n");
+	printf("\n");
 	return (0);
 }
