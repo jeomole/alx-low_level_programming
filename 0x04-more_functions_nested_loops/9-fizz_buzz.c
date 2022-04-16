@@ -20,6 +20,6 @@ int main(void)
 			printf("%d ", figure);
 		figure++;
 	}
-	printf("\n");
+	printf("Buzz\n");
 	return (0);
 }
