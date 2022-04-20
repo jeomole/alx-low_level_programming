@@ -8,9 +8,8 @@
 void print_rev(char *s)
 {
 	int i;
-	int size = sizeof(s[i]) / sizeof(s[0]);
-	
-	i = size - 2;
+
+	i = (_strlen(s)) - 1;
 	while (s[i] >= 0)
 	{
 		_putchar(s[i]);
