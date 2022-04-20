@@ -8,7 +8,6 @@
 void print_rev(char *s)
 {
 	int i;
-	char *s;
 	int size = sizeof(s[i]) / sizeof(s[0]);
 	
 	i = size - 2;
