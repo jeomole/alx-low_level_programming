@@ -17,12 +17,12 @@ void puts_half(char *str)
 
 	if (length % 2 == 0)
 	{
-		n = length / 2;
+		half = length / 2;
 	}
 	else
-		n = (length / 2) + 1;
+		half = (length / 2) + 1;
 
-	for (i = n; *(str + i) != '\0'; i++)
+	for (i = half; *(str + i) != '\0'; i++)
 	{
 		_putchar(*(str + i));
 	}
