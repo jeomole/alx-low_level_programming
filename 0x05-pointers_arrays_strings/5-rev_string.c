@@ -18,7 +18,7 @@ void rev_string(char *s)
 	char temp;
 
 	i = 0;
-	while (*(s+i) != '\0')
+	while (*(s + i) != '\0')
 		i++;
 
 	/**
@@ -31,9 +31,9 @@ void rev_string(char *s)
 	j = 0;
 	while (j < i)
 	{
-		temp = *(s+i); /* store last char in temp */
-		*(s+i) = *(s+j); /* first char swapped to position of last */
-		*(s+j) = temp; /* stored char swapped to first position */
-		i--;
+		temp = *(s + i); /* store last char in temp */
+		*(s + i) = *(s + j); /* first char swapped to position of last */
+		*(s+ j) = temp; /* stored char swapped to first position */
+		--i;
 	}
 }
