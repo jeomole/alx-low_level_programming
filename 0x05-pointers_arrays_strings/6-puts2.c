@@ -17,10 +17,6 @@ void puts2(char *str)
 			temp = *(str + i);
 			_putchar(temp);
 		}
-		else
-		{
-			break;
-		}
 	}
 	_putchar(10);
 }
