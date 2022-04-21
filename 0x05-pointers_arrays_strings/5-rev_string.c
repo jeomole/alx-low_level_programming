@@ -29,12 +29,12 @@ void rev_string(char *s)
 	i--;
 
 	j = 0;
-	while(j < i)
-		j++;
+	while (j < i)
 	{
 		temp = *(s + i); /* store last char in temp */
 		*(s + i) = *(s + j); /* first char swapped to position of last */
-		*(s+ j) = temp; /* stored char swapped to first position */
-		--i;
+		*(s + j) = temp; /* stored char swapped to first position */
+		i--;
+		j++;
 	}
 }
