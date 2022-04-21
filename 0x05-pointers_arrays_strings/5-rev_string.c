@@ -29,7 +29,8 @@ void rev_string(char *s)
 	i--;
 
 	j = 0;
-	while (j < i)
+	while(j < i)
+		j++;
 	{
 		temp = *(s + i); /* store last char in temp */
 		*(s + i) = *(s + j); /* first char swapped to position of last */
