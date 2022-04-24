@@ -11,7 +11,7 @@ char *leet(char *str)
 	char alpha[] == "aAeEoOtTlL";
 	char leet[] == "4433007711";
 
-	index = 0;
+	i = 0;
 	while (str[i] != '\0')
 	{
 		j = 0;
