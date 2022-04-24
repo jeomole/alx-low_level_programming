@@ -5,7 +5,7 @@
   * @str: string to be encoded
   * Return: pointer to the string encoded
   */
-char *rot13(char *)
+char *rot13(char *str)
 {
 	int i, j;
 	char alp[] = {aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ};
