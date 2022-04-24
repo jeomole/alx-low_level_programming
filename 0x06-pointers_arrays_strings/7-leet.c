@@ -5,7 +5,7 @@
   * @str: string to be encoded
   * Return: pointer to encoded string
   */
-char *leet(char *)
+char *leet(char *str)
 {
 	int index;
 
