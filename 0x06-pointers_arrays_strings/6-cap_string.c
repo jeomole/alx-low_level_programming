@@ -2,7 +2,6 @@
 
 /**
   * cap_string - capitalizes all new words of a string
-  *
   * @str: string passed as argument
   * Return: pointer to the string passed as argument
   */
