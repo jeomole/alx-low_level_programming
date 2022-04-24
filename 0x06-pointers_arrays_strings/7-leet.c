@@ -8,8 +8,8 @@
 char *leet(char *str)
 {
 	int i, j;
-	char alpha[] == "aAeEoOtTlL";
-	char leet[] == "4433007711";
+	char alpha[] = "aAeEoOtTlL";
+	char leet[] = "4433007711";
 
 	i = 0;
 	while (str[i] != '\0')
