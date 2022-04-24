@@ -8,14 +8,14 @@
 char *rot13(char *str)
 {
 	int i, j;
-	char alp[] = {aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ};
-	char rot[] = {nNoOpPqQrRsStTuUvVwWxXyYzZaAbBcCdDeEfFgGhHiIjJkKlLmM};
+	char alp[] = "aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ";
+	char rot[] = "nNoOpPqQrRsStTuUvVwWxXyYzZaAbBcCdDeEfFgGhHiIjJkKlLmM";
 
 	i = 0;
 	while (str[i] != '\0')
 	{
 		j = 0;
-		while (alp[j) != '\0')
+		while (alp[j] != '\0')
 		{
 			if (str[i] == alp[j])
 			{
