@@ -9,6 +9,7 @@ int _strlen_recursion(char *s);
 int _strlen_recursion(char *s);
 int _sqrt_recursion(int n);
 int is_prime_number(int n);
+void check(char *s, int start, int end, int *flag);
 int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
 
