@@ -6,7 +6,7 @@
   * @s2: pattern to be used
   * Return: 1 if identical, 0 otherwise
   */
-int wildcmp(cha *s1, char *s2)
+int wildcmp(char *s1, char *s2)
 {
 	if (*s2 == '\0')
 		return (*s1 == '\0');
