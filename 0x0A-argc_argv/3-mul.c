@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
   * main - multiples two integers passed to the program
@@ -12,7 +13,7 @@ int main(int argc, char **argv)
 {
 	if (argc == 3)
 	{
-		printf("%d\n", argv[1] * argv[2]);
+		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 		return (0);
 	}
 	else
