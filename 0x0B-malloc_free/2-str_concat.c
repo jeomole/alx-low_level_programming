@@ -24,9 +24,10 @@ char *str_concat(char *s1, char *s2)
 	len2 = 0;
 	while (s2[len2] != '\0')
 		len2++;
+
 	size = len1 + (len2 + 1);
 
-	newstr = malloc (size * sizeof(char));
+	newstr = malloc(size * sizeof(char));
 	if (newstr == NULL)
 		return (NULL);
 
