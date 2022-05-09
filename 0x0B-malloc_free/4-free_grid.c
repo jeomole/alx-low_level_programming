@@ -4,7 +4,7 @@
 /**
   * free_grid - frees the space allocated by malloc
   * to a 2d array of integers
-  * @grid - 2d array
+  * @grid: 2d array
   * @height: number of rows
   * Return: 0
   */
