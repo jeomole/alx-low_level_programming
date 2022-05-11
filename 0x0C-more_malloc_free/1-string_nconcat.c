@@ -5,7 +5,7 @@
   * string_nconcat - appends n bytes of s2 to s1
   * @s1: string 1
   * @s2: string 2
-  *
+  * @n: number of bytes to copy from s2
   * Return: On success, a pointer to the newly allocated area
   * On failure, NULL
   */
