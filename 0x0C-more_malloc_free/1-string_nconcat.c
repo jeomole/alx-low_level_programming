@@ -1,6 +1,14 @@
 #include "main.h"
 #include <stdlib.h>
 
+/**
+  * string_nconcat - appends n bytes of s2 to s1
+  * @s1: string 1
+  * @s2: string 2
+  *
+  * Return: On success, a pointer to the newly allocated area
+  * On failure, NULL
+  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	unsigned int len1, len2, i, j;
