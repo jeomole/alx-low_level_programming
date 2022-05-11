@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-#include <string.h>
 
 /**
  * array_range - creates an array of integers.
@@ -22,7 +21,7 @@ int *array_range(int min, int max)
 	if (a == NULL)
 		return (NULL);
 
-	for (i = 0; i < l; i++, min++)
+	for (i = 0; i < len; i++, min++)
 	{
 		a[i] = min;
 	}
