@@ -10,12 +10,10 @@
   */
 void print_dog(struct dog *d)
 {
-	if (name == NULL)
-		d->name = (nil);
-	if (age == NULL)
-		d->age = (nil);
-	if (owner == NULL)
-		d->owner = (nil);
+	if (d->name == NULL)
+		d->name = "(nil)";
+	if (d->owner == NULL)
+		d->owner = "(nil)";
 
 	if (d == NULL)
 		return;
