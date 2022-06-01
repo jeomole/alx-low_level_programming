@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 void check_IO_stat(int stat, int fd, char *filename, char mode);
 /**
